@@ -1,22 +1,18 @@
-
-  body .titulo{
-    display: none;
-  }
-
 /* proyectos */
 
-  #proyectos{
+  #certificados{
     text-align: center;
+    flex-wrap: wrap;
   }
 
-  #proyectos .proyecto-1{
+  #certificados .certificado-1{
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
     margin-top: 10px;
     padding: 0px 0px 10px 0px;
   }
 
-  #proyectos .proyecto-1 img{
+  #certificados .certificado-1 img{
     width: 100%;
     height: 200px;
     border-radius: 30px 30px 0px 0px;
