@@ -1,7 +1,7 @@
 
-  #certificados .certificado-1{
-    text-align: center;
-    margin: 10px;
+  #certificados{
+   text-align: center;
+   justify-content: center;
   }
 
   #certificados .certificado-1{
@@ -9,7 +9,8 @@
     border-radius: 30px;
     margin-top: 10px;
     padding: 0px 0px 10px 0px;
-    width: 400px;
+    width: 300px;
+    margin: 10px;
   }
 
   #certificados .certificado-1 img{

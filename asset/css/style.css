@@ -10,16 +10,17 @@
     background-image: url(./wallpaper/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: 100% 0%;
-    background-size: 300vh;
+    background-size: 10000000000vh;
     margin: 10px;
   }
 
 /* proyectos */
 
   #certificados{
-    width: 98%;
+    width: 100%;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
   }
 
 /* footer */
