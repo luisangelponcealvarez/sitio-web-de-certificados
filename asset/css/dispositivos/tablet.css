@@ -1,0 +1,54 @@
+/* header */
+
+  #container-header .icon i{
+    font-size: 30px;
+  }
+
+  #menu{
+    margin: 14px;
+  }
+
+  #menu ul li{
+    display: inline;
+    padding-left: 3px;
+    padding-right: 15px;
+  }
+
+/* main */
+
+  #container-main{
+    height: 35em;
+  }
+
+  #inicio h1, p{
+    margin: 20px;
+  }
+
+/* formaciones */
+
+  #formaciones{
+    margin: 10px;
+    margin-top: 2em;
+  }
+
+  #formaciones .formacion{
+    margin: 10px;
+  }
+
+/* certificados */
+
+  #certificados{
+    margin: 10px;
+  }
+
+  #certificados .certificado{
+    margin: 10px;
+  }
+
+/* footer */
+
+  #container--footer{
+    position: relative;
+    margin-top: 182em;
+    height: 100px;
+  }
