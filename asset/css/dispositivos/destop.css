@@ -1,20 +1,66 @@
+/* header */
+  
+  #menu{
+    margin: 24px 0px 0px 8em;
+    text-align: center;
+  }
 
-#container-header{
-  display: none;
-}
+  #menu ul li{
+    display: inline;
+    padding-left: 2em;
+    padding-right: 15px;
+  }
 
-#container-main{
-  display: none;
-}
+/* main */
 
-#formaciones{
-  display: none;
-}
+  #container-main{
+    display: flex;
+    margin: 10px;
+  }
 
-#certificados{
-  display: none;
-}
+  #inicio{
+    margin-top: 12em;
+  }
 
-#container--footer{
-  display: none;
-}
+  #inicio img{
+    position: absolute;
+    top: 8em;
+    right: 6em;
+  }
+
+  #inicio .text{
+    width: 50%;
+    margin: 10px 0px 0px 5em;
+  }
+  
+  #inicio .text p{
+    margin: 20px;
+  }
+
+/* formaciones */
+
+  #formaciones{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #formaciones .formacion{
+    width: 300px;
+    margin: 10px;
+  }
+
+/* certificados */
+
+  #certificados{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #certificados .certificado{
+    width: 300px;
+    margin: 10px;
+  }
