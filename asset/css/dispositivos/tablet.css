@@ -27,23 +27,28 @@
 /* formaciones */
 
   #formaciones{
+    display: flex;
+    flex-wrap: wrap;
     margin: 10px;
     margin-top: 2em;
   }
 
   #formaciones .formacion{
-    width: 100%;
+    width: 300px;
     margin: 10px;
   }
 
 /* certificados */
 
   #certificados{
+    display: flex;
     margin: 10px;
+    flex-wrap: wrap;
   }
 
   #certificados .certificado{
     margin: 10px;
+    width: 300px;
   }
 
 /* footer */
