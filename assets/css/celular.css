@@ -1,0 +1,44 @@
+/* formaciónes */
+
+#formaciónes {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+#formaciónes .formacion {
+  width: 233px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+#formaciónes .formacion img {
+  width: 100%;
+  border-radius: 25px 25px 0px 0px;
+}
+
+/* certificados  */
+
+#certificados {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+#certificados .certificado {
+  width: 233px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+#certificados .certificado img {
+  width: 100%;
+  border-radius: 25px 25px 0px 0px;
+}
