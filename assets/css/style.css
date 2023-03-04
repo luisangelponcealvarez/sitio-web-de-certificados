@@ -1,0 +1,79 @@
+/* formateo */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+h1 {
+  width: 98%;
+  text-align: center;
+  color: #fff;
+}
+
+body {
+  background-color: #043263;
+  width: 100%;
+}
+
+/* formaciónes */
+
+#formaciónes {
+  width: 98%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 10px;
+}
+
+#formaciónes .formacion {  
+  width: 300px;
+  margin: 5px;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+#formaciónes .formacion img {
+  width: 100%;
+  border-radius: 25px 25px 0px 0px;
+}
+
+/* certificados  */
+
+#certificados {
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 10px;
+}
+
+#certificados .certificado {
+  width: 300px;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+#certificados .certificado img {
+  width: 100%;
+  border-radius: 25px 25px 0px 0px;
+}
+
+/* footer */
+
+#container--footer {
+  margin: 10px;
+  width: 98%;
+  text-align: center;
+  color: #fff;
+}
+
+#container--footer .container_redes-footer i {
+  color: #fff;
+  font-size: 25px;
+  margin: 5px;
+}
