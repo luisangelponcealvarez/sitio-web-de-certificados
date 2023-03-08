@@ -29,7 +29,7 @@ body {
   margin: 10px;
 }
 
-#formaciónes .formacion {  
+#formaciónes .formacion {
   width: 300px;
   margin: 5px;
   border-radius: 25px;
@@ -65,15 +65,46 @@ body {
 
 /* footer */
 
-#container--footer {
+#contac {
   margin: 10px;
   width: 98%;
   text-align: center;
   color: #fff;
 }
 
-#container--footer .container_redes-footer i {
-  color: #fff;
+#contac .container_redes-footer i {
   font-size: 25px;
   margin: 5px;
+}
+
+/* color-icons */
+
+#contac .linkedin {
+  color: #00146d;
+}
+
+#contac .github {
+  color: #0a0505;
+}
+
+#contac .instagram {
+  color: #ff1aa7;
+}
+
+#contac .facebook {
+  color: #2600ff;
+}
+
+#contac .twitter {
+  color: #005f6b;
+}
+
+#contac .spotify {
+  color: #06b600;
+}
+
+/* hover-icons */
+
+#contac .container_redes-footer i:hover{
+  font-size: 40px;
 }
